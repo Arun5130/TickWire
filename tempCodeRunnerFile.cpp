@@ -1,0 +1,1 @@
+g++ -std=c++20 -Wall -Wextra -Wpedantic -O2 main.cpp -o tickwire./tickwire
