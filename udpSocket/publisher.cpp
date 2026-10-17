@@ -11,7 +11,7 @@ int main(){
     int sock = socket(AF_INET, SOCK_DGRAM, 0);
 
     if (sock < 0){
-        cerr << "socket() failed: " << strerror(errno) << '\n';
+        std::cerr << "socket() failed: " << std::strerror(errno) << '\n';
         return 1;
     }
 
@@ -22,13 +22,17 @@ int main(){
 
 
     if(inet_pton(AF_INET, "127.0.0.1", &destination.sin_addr) != 1){
-        cerr << "Invalid destination address\n";
+        std::cerr << "Invalid destination address\n";
         close(sock);
         return 1;
     }
 
     // create market data and encode it
     for (uint64_t seq = 5001; seq <= 5010; ++seq){
+        
+        if (seq == 5005) {
+            continue;
+        }
         MarketData update{
             seq,
             101,
@@ -47,18 +51,18 @@ int main(){
             sizeof(destination)
         );
         if (sent < 0){
-            cerr << "sendto() failed: " << strerror(errno) <<'\n';
+            std::cerr << "sendto() failed: " << std::strerror(errno) <<'\n';
             close(sock);
             return 1;
         }
     
         if(sent != static_cast<ssize_t>(packet.size())){
-            cerr << "unexpected number of bytes sent\n";
+            std::cerr << "unexpected number of bytes sent\n";
             close(sock);
             return 1;
         }
-        cout <<"sent: " << sent << " bytes\n";
-        cout <<"Sequence " << update.sequence <<'\n';
+        std::cout <<"sent: " << sent << " bytes\n";
+        std::cout <<"Sequence " << update.sequence <<'\n';
     }
     
     

@@ -7,13 +7,15 @@
 #include<iostream>
 #include<sys/socket.h>
 #include<unistd.h>
-using namespace std;
+
+#include <optional>
+//using namespace std;
 
 int main(){
     int sock = socket(AF_INET, SOCK_DGRAM, 0); //ipv4 udp socket
 
     if(sock < 0){
-        cerr << "socket() failed: " << strerror(errno) << "\n";
+        std::cerr << "socket() failed: " << std::strerror(errno) << "\n";
         return 1;
     }
      //lockal listening address
@@ -24,13 +26,14 @@ int main(){
 
     // bind the socket to port 9000
     if (bind(sock, reinterpret_cast<sockaddr*>(&address), sizeof(address)) < 0){
-        cerr <<"bind() failed: " << strerror(errno) << '\n';
+        std::cerr <<"bind() failed: " << std::strerror(errno) << '\n';
         close(sock);
         return 1;
     }
-    cout << "receiver listning on 127.0.0.1:9000\n";
+    std::cout << "receiver listning on 127.0.0.1:9000\n";
 
-
+    //stores the sequence number
+    std::optional <uint64_t> next_expected;
     while(true){
     //recive one datagram
         Message packet{};
@@ -45,14 +48,14 @@ int main(){
         );
 
         if (received < 0){
-            cerr << "recvfrom() failed: " << strerror(errno) <<'\n';
+            std::cerr << "recvfrom() failed: " << strerror(errno) <<'\n';
             close(sock);
             return 1;
         }
 
         //validate the datagram length
         if (received != static_cast<ssize_t>(packet.size())){
-            cerr << "Invalid message size: " << received << "bytes\n";
+            std::cerr << "Invalid message size: " << received << "bytes\n";
             close(sock);
             return 1;
         }
@@ -61,17 +64,34 @@ int main(){
         auto update = decode(packet);
 
         if (!update){
-            cerr << "Invalid market data message\n";
+            std::cerr << "Invalid market data message\n";
             close(sock);
             return 1;
         }
 
+        const std::uint64_t seq = update->sequence;
 
-        cout << "Received sequence: " << update->sequence <<'\n';
-        cout << "instrument: " << update->instrument_id << '\n';
-        cout << "Bid price(paise): " << update->bid_price_paise << '\n';
-        cout << "ask price(paise): " << update->ask_price_paise << '\n';
-        cout << "quantity: " << update->quantity <<'\n';
+        if (!next_expected.has_value()){
+            next_expected = seq + 1;
+        }
+        else if (seq == *next_expected){
+            next_expected = seq + 1;
+        }
+        else if (seq > *next_expected){
+            //a gap has been detected
+            std::cerr <<"GAP detected Missing Sequence: " << *next_expected << " through " << seq - 1 <<'\n';
+            next_expected = seq + 1;
+        }
+        else{
+            std::cerr << "Duplicate/Late Received Sequence " << seq << ", expected" << *next_expected <<'\n';
+        }
+
+
+        std::cout << "Received sequence: " << update->sequence <<'\n';
+        std::cout << "instrument: " << update->instrument_id << '\n';
+        std::cout << "Bid price(paise): " << update->bid_price_paise << '\n';
+        std::cout << "ask price(paise): " << update->ask_price_paise << '\n';
+        std::cout << "quantity: " << update->quantity <<'\n';
     }
     close(sock);
     return 0;
