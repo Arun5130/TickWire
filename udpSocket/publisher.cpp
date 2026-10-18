@@ -27,12 +27,15 @@ int main(){
         return 1;
     }
 
+    const std::uint64_t sequences[] ={
+        5001,5002,5004,5003,5003,5005
+    };
     // create market data and encode it
-    for (uint64_t seq = 5001; seq <= 5010; ++seq){
+    for (auto seq : sequences){
         
-        if (seq == 5005) {
-            continue;
-        }
+        // if (seq == 5005) {
+        //     continue;
+        // }
         MarketData update{
             seq,
             101,

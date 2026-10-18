@@ -9,6 +9,9 @@
 #include<unistd.h>
 
 #include <optional>
+
+#include <map>
+#include <cstdint>
 //using namespace std;
 
 int main(){
@@ -30,10 +33,14 @@ int main(){
         close(sock);
         return 1;
     }
-    std::cout << "receiver listning on 127.0.0.1:9000\n";
+    std::cout << "receiver listening on 127.0.0.1:9000\n";
 
     //stores the sequence number
-    std::optional <uint64_t> next_expected;
+    std::optional <std::uint64_t> next_expected;
+
+    //Reorder buffer to store the sequence number
+    std::map<std::uint64_t, MarketData> pending;
+
     while(true){
     //recive one datagram
         Message packet{};
@@ -71,27 +78,66 @@ int main(){
 
         const std::uint64_t seq = update->sequence;
 
+        // Establish the starting sequence.
         if (!next_expected.has_value()){
-            next_expected = seq + 1;
+            next_expected = seq;
         }
-        else if (seq == *next_expected){
-            next_expected = seq + 1;
-        }
-        else if (seq > *next_expected){
-            //a gap has been detected
-            std::cerr <<"GAP detected Missing Sequence: " << *next_expected << " through " << seq - 1 <<'\n';
-            next_expected = seq + 1;
-        }
-        else{
-            std::cerr << "Duplicate/Late Received Sequence " << seq << ", expected" << *next_expected <<'\n';
+        //1. Ignore late / duplicate sequences
+        if (seq < *next_expected){
+            std::cerr << "Duplicate/Late Seqence " << seq << "Discarded"<<'\n';
+            continue;
         }
 
+        // A future message has arrived before a missing one.
+        //2. Out-of-order sequence (future message) -> buffer it
+        if (seq > *next_expected){
+            auto [it, inserted] = pending.emplace(seq, *update);
 
-        std::cout << "Received sequence: " << update->sequence <<'\n';
-        std::cout << "instrument: " << update->instrument_id << '\n';
-        std::cout << "Bid price(paise): " << update->bid_price_paise << '\n';
-        std::cout << "ask price(paise): " << update->ask_price_paise << '\n';
-        std::cout << "quantity: " << update->quantity <<'\n';
+            if (!inserted){
+                std::cerr <<"Duplicate Buffered sequence " << seq << "received again\n";
+                continue;
+            }
+            if(pending.size() == 1){
+                std::cerr <<"Gap Detected Expected " << *next_expected <<", received " << seq <<'\n';
+            }
+            std::cout << "Buffer Sequence " << seq <<" waiting for " << *next_expected << '\n';
+
+            continue;
+        }
+
+        // else if (seq == *next_expected){
+        //     next_expected = seq + 1;
+        // }
+        // else if (seq > *next_expected){
+        //     //a gap has been detected
+        //     std::cerr <<"GAP detected Missing Sequence: " << *next_expected << " through " << seq - 1 <<'\n';
+        //     next_expected = seq + 1;
+        // }
+        // else{
+        //     std::cerr << "Duplicate/Late Received Sequence " << seq << ", expected" << *next_expected <<'\n';
+        // }
+
+        MarketData current = *update;
+        while(true){
+
+            std::cout << "Processed sequence: " << current.sequence <<'\n';
+            std::cout << "instrument: " << current.instrument_id << '\n';
+            std::cout << "Bid price(paise): " << current.bid_price_paise << '\n';
+            std::cout << "ask price(paise): " << current.ask_price_paise << '\n';
+            std::cout << "quantity: " << current.quantity <<'\n';
+            ++(*next_expected);
+            auto it = pending.find(*next_expected);
+            if (it == pending.end()){
+                break;
+            }
+            current = it->second;
+            pending.erase(it);
+        }
+        // std::cout << "Received sequence: " << update->sequence <<'\n';
+        // std::cout << "instrument: " << update->instrument_id << '\n';
+        // std::cout << "Bid price(paise): " << update->bid_price_paise << '\n';
+        // std::cout << "ask price(paise): " << update->ask_price_paise << '\n';
+        // std::cout << "quantity: " << update->quantity <<'\n';
     }
     close(sock);
     return 0;
