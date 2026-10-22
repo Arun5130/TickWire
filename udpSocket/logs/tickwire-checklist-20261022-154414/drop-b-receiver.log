@@ -1,0 +1,14 @@
+[SO_RCVBUF] Feed A effective socket value: 425984 bytes
+Feed A joined multicast group 239.10.10.1 on port 9000
+[SO_RCVBUF] Feed B effective socket value: 425984 bytes
+Feed B joined multicast group 239.10.10.2 on port 9002
+[PUBLISHER STATUS] End of stream through sequence 15000
+[COMPLETE] Processed all 10000 messages through sequence 15000
+
+No successful recovery samples collected.
+
+=== RECEIVER THROUGHPUT ===
+Processed messages: 10000
+Measured elapsed time: 12.098369 s
+Effective throughput: 826.56 messages/second
+TickWire receiver stopped.

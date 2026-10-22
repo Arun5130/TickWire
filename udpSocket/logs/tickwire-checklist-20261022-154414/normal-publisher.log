@@ -1,0 +1,7 @@
+[SCENARIO] normal
+TCP recovery server listening on 127.0.0.1:9001
+
+Publisher finished sending.
+TCP recovery remains available.
+Press Enter to stop the server.
+TickWire publisher stopped.

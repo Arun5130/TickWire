@@ -1,0 +1,406 @@
+[SCENARIO] drop-both
+TCP recovery server listening on 127.0.0.1:9001
+Stored sequence 5001 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5001
+[Feed B] Sent 32 bytes, sequence 5001
+[Feed B] Sent 32 bytes, sequence 5001
+Stored sequence 5002 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5002
+[Feed B] Sent 32 bytes, sequence 5002
+[Feed B] Sent 32 bytes, sequence 5002
+Stored sequence 5003 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5003
+[Feed B] Sent 32 bytes, sequence 5003
+[Feed B] Sent 32 bytes, sequence 5003
+Stored sequence 5004 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5004
+[Feed B] Sent 32 bytes, sequence 5004
+[Feed B] Sent 32 bytes, sequence 5004
+Stored sequence 5005 in replay buffer
+[FAULT INJECTION] Skipping UDP sequence 5005
+Stored sequence 5006 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5006
+[Feed B] Sent 32 bytes, sequence 5006
+[Feed B] Sent 32 bytes, sequence 5006
+Stored sequence 5007 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5007
+[Feed B] Sent 32 bytes, sequence 5007
+[Feed B] Sent 32 bytes, sequence 5007
+Stored sequence 5008 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5008
+[Feed B] Sent 32 bytes, sequence 5008
+[Feed B] Sent 32 bytes, sequence 5008
+Stored sequence 5009 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5009
+[Feed B] Sent 32 bytes, sequence 5009
+[Feed B] Sent 32 bytes, sequence 5009
+Stored sequence 5010 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5010
+[Feed B] Sent 32 bytes, sequence 5010
+[Feed B] Sent 32 bytes, sequence 5010
+Stored sequence 5011 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5011
+[Feed B] Sent 32 bytes, sequence 5011
+[Feed B] Sent 32 bytes, sequence 5011
+Stored sequence 5012 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5012
+[Feed B] Sent 32 bytes, sequence 5012
+[Feed B] Sent 32 bytes, sequence 5012
+Stored sequence 5013 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5013
+[Feed B] Sent 32 bytes, sequence 5013
+[Feed B] Sent 32 bytes, sequence 5013
+Stored sequence 5014 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5014
+[Feed B] Sent 32 bytes, sequence 5014
+[Feed B] Sent 32 bytes, sequence 5014
+Stored sequence 5015 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5015
+[Feed B] Sent 32 bytes, sequence 5015
+[Feed B] Sent 32 bytes, sequence 5015
+Stored sequence 5016 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5016
+[Feed B] Sent 32 bytes, sequence 5016
+[Feed B] Sent 32 bytes, sequence 5016
+Stored sequence 5017 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5017
+[Feed B] Sent 32 bytes, sequence 5017
+[Feed B] Sent 32 bytes, sequence 5017
+Stored sequence 5018 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5018
+[Feed B] Sent 32 bytes, sequence 5018
+[Feed B] Sent 32 bytes, sequence 5018
+Stored sequence 5019 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5019
+[Feed B] Sent 32 bytes, sequence 5019
+[Feed B] Sent 32 bytes, sequence 5019
+Stored sequence 5020 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5020
+[Feed B] Sent 32 bytes, sequence 5020
+[Feed B] Sent 32 bytes, sequence 5020
+Stored sequence 5021 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5021
+[Feed B] Sent 32 bytes, sequence 5021
+[Feed B] Sent 32 bytes, sequence 5021
+Stored sequence 5022 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5022
+[Feed B] Sent 32 bytes, sequence 5022
+[Feed B] Sent 32 bytes, sequence 5022
+Stored sequence 5023 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5023
+[Feed B] Sent 32 bytes, sequence 5023
+[Feed B] Sent 32 bytes, sequence 5023
+Stored sequence 5024 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5024
+[Feed B] Sent 32 bytes, sequence 5024
+[Feed B] Sent 32 bytes, sequence 5024
+Stored sequence 5025 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5025
+[Feed B] Sent 32 bytes, sequence 5025
+[Feed B] Sent 32 bytes, sequence 5025
+Stored sequence 5026 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5026
+[Feed B] Sent 32 bytes, sequence 5026
+[Feed B] Sent 32 bytes, sequence 5026
+Stored sequence 5027 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5027
+[Feed B] Sent 32 bytes, sequence 5027
+[Feed B] Sent 32 bytes, sequence 5027
+Stored sequence 5028 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5028
+[Feed B] Sent 32 bytes, sequence 5028
+[Feed B] Sent 32 bytes, sequence 5028
+Stored sequence 5029 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5029
+[Feed B] Sent 32 bytes, sequence 5029
+[Feed B] Sent 32 bytes, sequence 5029
+Stored sequence 5030 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5030
+[Feed B] Sent 32 bytes, sequence 5030
+[Feed B] Sent 32 bytes, sequence 5030
+Stored sequence 5031 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5031
+[Feed B] Sent 32 bytes, sequence 5031
+[Feed B] Sent 32 bytes, sequence 5031
+Stored sequence 5032 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5032
+[Feed B] Sent 32 bytes, sequence 5032
+[Feed B] Sent 32 bytes, sequence 5032
+Stored sequence 5033 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5033
+[Feed B] Sent 32 bytes, sequence 5033
+[Feed B] Sent 32 bytes, sequence 5033
+Stored sequence 5034 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5034
+[Feed B] Sent 32 bytes, sequence 5034
+[Feed B] Sent 32 bytes, sequence 5034
+Stored sequence 5035 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5035
+[Feed B] Sent 32 bytes, sequence 5035
+[Feed B] Sent 32 bytes, sequence 5035
+Stored sequence 5036 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5036
+[Feed B] Sent 32 bytes, sequence 5036
+[Feed B] Sent 32 bytes, sequence 5036
+Stored sequence 5037 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5037
+[Feed B] Sent 32 bytes, sequence 5037
+[Feed B] Sent 32 bytes, sequence 5037
+Stored sequence 5038 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5038
+[Feed B] Sent 32 bytes, sequence 5038
+[Feed B] Sent 32 bytes, sequence 5038
+Stored sequence 5039 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5039
+[Feed B] Sent 32 bytes, sequence 5039
+[Feed B] Sent 32 bytes, sequence 5039
+Stored sequence 5040 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5040
+[Feed B] Sent 32 bytes, sequence 5040
+[Feed B] Sent 32 bytes, sequence 5040
+Stored sequence 5041 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5041
+[Feed B] Sent 32 bytes, sequence 5041
+[Feed B] Sent 32 bytes, sequence 5041
+Stored sequence 5042 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5042
+[Feed B] Sent 32 bytes, sequence 5042
+[Feed B] Sent 32 bytes, sequence 5042
+Stored sequence 5043 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5043
+[Feed B] Sent 32 bytes, sequence 5043
+[Feed B] Sent 32 bytes, sequence 5043
+Stored sequence 5044 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5044
+[Feed B] Sent 32 bytes, sequence 5044
+[Feed B] Sent 32 bytes, sequence 5044
+Stored sequence 5045 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5045
+[Feed B] Sent 32 bytes, sequence 5045
+[Feed B] Sent 32 bytes, sequence 5045
+Stored sequence 5046 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5046
+[Feed B] Sent 32 bytes, sequence 5046
+[Feed B] Sent 32 bytes, sequence 5046
+Stored sequence 5047 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5047
+[Feed B] Sent 32 bytes, sequence 5047
+[Feed B] Sent 32 bytes, sequence 5047
+Stored sequence 5048 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5048
+[Feed B] Sent 32 bytes, sequence 5048
+[Feed B] Sent 32 bytes, sequence 5048
+Stored sequence 5049 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5049
+[Feed B] Sent 32 bytes, sequence 5049
+[Feed B] Sent 32 bytes, sequence 5049
+Stored sequence 5050 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5050
+[Feed B] Sent 32 bytes, sequence 5050
+[Feed B] Sent 32 bytes, sequence 5050
+Stored sequence 5051 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5051
+[Feed B] Sent 32 bytes, sequence 5051
+[Feed B] Sent 32 bytes, sequence 5051
+Stored sequence 5052 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5052
+[Feed B] Sent 32 bytes, sequence 5052
+[Feed B] Sent 32 bytes, sequence 5052
+Stored sequence 5053 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5053
+[Feed B] Sent 32 bytes, sequence 5053
+[Feed B] Sent 32 bytes, sequence 5053
+Stored sequence 5054 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5054
+[Feed B] Sent 32 bytes, sequence 5054
+[Feed B] Sent 32 bytes, sequence 5054
+Stored sequence 5055 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5055
+[Feed B] Sent 32 bytes, sequence 5055
+[Feed B] Sent 32 bytes, sequence 5055
+Stored sequence 5056 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5056
+[Feed B] Sent 32 bytes, sequence 5056
+[Feed B] Sent 32 bytes, sequence 5056
+Stored sequence 5057 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5057
+[Feed B] Sent 32 bytes, sequence 5057
+[Feed B] Sent 32 bytes, sequence 5057
+Stored sequence 5058 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5058
+[Feed B] Sent 32 bytes, sequence 5058
+[Feed B] Sent 32 bytes, sequence 5058
+Stored sequence 5059 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5059
+[Feed B] Sent 32 bytes, sequence 5059
+[Feed B] Sent 32 bytes, sequence 5059
+Stored sequence 5060 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5060
+[Feed B] Sent 32 bytes, sequence 5060
+[Feed B] Sent 32 bytes, sequence 5060
+Stored sequence 5061 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5061
+[Feed B] Sent 32 bytes, sequence 5061
+[Feed B] Sent 32 bytes, sequence 5061
+Stored sequence 5062 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5062
+[Feed B] Sent 32 bytes, sequence 5062
+[Feed B] Sent 32 bytes, sequence 5062
+Stored sequence 5063 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5063
+[Feed B] Sent 32 bytes, sequence 5063
+[Feed B] Sent 32 bytes, sequence 5063
+Stored sequence 5064 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5064
+[Feed B] Sent 32 bytes, sequence 5064
+[Feed B] Sent 32 bytes, sequence 5064
+Stored sequence 5065 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5065
+[Feed B] Sent 32 bytes, sequence 5065
+[Feed B] Sent 32 bytes, sequence 5065
+Stored sequence 5066 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5066
+[Feed B] Sent 32 bytes, sequence 5066
+[Feed B] Sent 32 bytes, sequence 5066
+Stored sequence 5067 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5067
+[Feed B] Sent 32 bytes, sequence 5067
+[Feed B] Sent 32 bytes, sequence 5067
+Stored sequence 5068 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5068
+[Feed B] Sent 32 bytes, sequence 5068
+[Feed B] Sent 32 bytes, sequence 5068
+Stored sequence 5069 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5069
+[Feed B] Sent 32 bytes, sequence 5069
+[Feed B] Sent 32 bytes, sequence 5069
+Stored sequence 5070 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5070
+[Feed B] Sent 32 bytes, sequence 5070
+[Feed B] Sent 32 bytes, sequence 5070
+Stored sequence 5071 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5071
+[Feed B] Sent 32 bytes, sequence 5071
+[Feed B] Sent 32 bytes, sequence 5071
+Stored sequence 5072 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5072
+[Feed B] Sent 32 bytes, sequence 5072
+[Feed B] Sent 32 bytes, sequence 5072
+Stored sequence 5073 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5073
+[Feed B] Sent 32 bytes, sequence 5073
+[Feed B] Sent 32 bytes, sequence 5073
+Stored sequence 5074 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5074
+[Feed B] Sent 32 bytes, sequence 5074
+[Feed B] Sent 32 bytes, sequence 5074
+Stored sequence 5075 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5075
+[Feed B] Sent 32 bytes, sequence 5075
+[Feed B] Sent 32 bytes, sequence 5075
+Stored sequence 5076 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5076
+[Feed B] Sent 32 bytes, sequence 5076
+[Feed B] Sent 32 bytes, sequence 5076
+Stored sequence 5077 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5077
+[Feed B] Sent 32 bytes, sequence 5077
+[Feed B] Sent 32 bytes, sequence 5077
+Stored sequence 5078 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5078
+[Feed B] Sent 32 bytes, sequence 5078
+[Feed B] Sent 32 bytes, sequence 5078
+Stored sequence 5079 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5079
+[Feed B] Sent 32 bytes, sequence 5079
+[Feed B] Sent 32 bytes, sequence 5079
+Stored sequence 5080 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5080
+[Feed B] Sent 32 bytes, sequence 5080
+[Feed B] Sent 32 bytes, sequence 5080
+Stored sequence 5081 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5081
+[Feed B] Sent 32 bytes, sequence 5081
+[Feed B] Sent 32 bytes, sequence 5081
+Stored sequence 5082 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5082
+[Feed B] Sent 32 bytes, sequence 5082
+[Feed B] Sent 32 bytes, sequence 5082
+Stored sequence 5083 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5083
+[Feed B] Sent 32 bytes, sequence 5083
+[Feed B] Sent 32 bytes, sequence 5083
+Stored sequence 5084 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5084
+[Feed B] Sent 32 bytes, sequence 5084
+[Feed B] Sent 32 bytes, sequence 5084
+Stored sequence 5085 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5085
+[Feed B] Sent 32 bytes, sequence 5085
+[Feed B] Sent 32 bytes, sequence 5085
+Stored sequence 5086 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5086
+[Feed B] Sent 32 bytes, sequence 5086
+[Feed B] Sent 32 bytes, sequence 5086
+Stored sequence 5087 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5087
+[Feed B] Sent 32 bytes, sequence 5087
+[Feed B] Sent 32 bytes, sequence 5087
+Stored sequence 5088 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5088
+[Feed B] Sent 32 bytes, sequence 5088
+[Feed B] Sent 32 bytes, sequence 5088
+Stored sequence 5089 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5089
+[Feed B] Sent 32 bytes, sequence 5089
+[Feed B] Sent 32 bytes, sequence 5089
+Stored sequence 5090 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5090
+[Feed B] Sent 32 bytes, sequence 5090
+[Feed B] Sent 32 bytes, sequence 5090
+Stored sequence 5091 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5091
+[Feed B] Sent 32 bytes, sequence 5091
+[Feed B] Sent 32 bytes, sequence 5091
+Stored sequence 5092 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5092
+[Feed B] Sent 32 bytes, sequence 5092
+[Feed B] Sent 32 bytes, sequence 5092
+Stored sequence 5093 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5093
+[Feed B] Sent 32 bytes, sequence 5093
+[Feed B] Sent 32 bytes, sequence 5093
+Stored sequence 5094 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5094
+[Feed B] Sent 32 bytes, sequence 5094
+[Feed B] Sent 32 bytes, sequence 5094
+Stored sequence 5095 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5095
+[Feed B] Sent 32 bytes, sequence 5095
+[Feed B] Sent 32 bytes, sequence 5095
+Stored sequence 5096 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5096
+[Feed B] Sent 32 bytes, sequence 5096
+[Feed B] Sent 32 bytes, sequence 5096
+Stored sequence 5097 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5097
+[Feed B] Sent 32 bytes, sequence 5097
+[Feed B] Sent 32 bytes, sequence 5097
+Stored sequence 5098 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5098
+[Feed B] Sent 32 bytes, sequence 5098
+[Feed B] Sent 32 bytes, sequence 5098
+Stored sequence 5099 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5099
+[Feed B] Sent 32 bytes, sequence 5099
+[Feed B] Sent 32 bytes, sequence 5099
+Stored sequence 5100 in replay buffer
+[Feed A] Sent 32 bytes, sequence 5100
+[Feed B] Sent 32 bytes, sequence 5100
+[Feed B] Sent 32 bytes, sequence 5100
+
+Publisher finished sending.
+TCP recovery remains available.
+Press Enter to stop the server.
+[TCP RECOVERY] Retransmitted sequence 5005
+TickWire publisher stopped.

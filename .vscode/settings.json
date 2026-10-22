@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^g\\+\\+ -std=c\\+\\+20 -Wall -Wextra -Wpedantic -O2 -pthread receiver\\.cpp -o receiver && g\\+\\+ -std=c\\+\\+20 -Wall -Wextra -Wpedantic -O2 -pthread publisher\\.cpp -o publisher$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

@@ -1,0 +1,615 @@
+receiver listening on 127.0.0.1:9000
+Feed B listening on 127.0.0.1:9002
+[UDP RECEIVED Feed A ] Sequence 5001
+[UDP RECEIVED Feed B ] Sequence 5001
+[DUPLICATE] Sequence 5001 already buffered
+Processed sequence: 5001
+[UDP RECEIVED Feed B ] Sequence 5001
+Duplicate/Late Sequence 5001
+[UDP RECEIVED Feed A ] Sequence 5002
+[UDP RECEIVED Feed B ] Sequence 5002
+[DUPLICATE] Sequence 5002 already buffered
+Processed sequence: 5002
+[UDP RECEIVED Feed B ] Sequence 5002
+Duplicate/Late Sequence 5002
+[UDP RECEIVED Feed A ] Sequence 5003
+[UDP RECEIVED Feed B ] Sequence 5003
+[DUPLICATE] Sequence 5003 already buffered
+Processed sequence: 5003
+[UDP RECEIVED Feed B ] Sequence 5003
+Duplicate/Late Sequence 5003
+[UDP RECEIVED Feed A ] Sequence 5004
+[UDP RECEIVED Feed B ] Sequence 5004
+[DUPLICATE] Sequence 5004 already buffered
+Processed sequence: 5004
+[UDP RECEIVED Feed B ] Sequence 5004
+Duplicate/Late Sequence 5004
+[UDP RECEIVED Feed A ] Sequence 5005
+[UDP RECEIVED Feed B ] Sequence 5005
+[DUPLICATE] Sequence 5005 already buffered
+Processed sequence: 5005
+[UDP RECEIVED Feed A ] Sequence 5005
+Duplicate/Late Sequence 5005
+[UDP RECEIVED Feed B ] Sequence 5005
+Duplicate/Late Sequence 5005
+[UDP RECEIVED Feed B ] Sequence 5005
+Duplicate/Late Sequence 5005
+[UDP RECEIVED Feed A ] Sequence 5006
+[UDP RECEIVED Feed B ] Sequence 5006
+[DUPLICATE] Sequence 5006 already buffered
+Processed sequence: 5006
+[UDP RECEIVED Feed B ] Sequence 5006
+Duplicate/Late Sequence 5006
+[UDP RECEIVED Feed A ] Sequence 5007
+[UDP RECEIVED Feed B ] Sequence 5007
+[DUPLICATE] Sequence 5007 already buffered
+Processed sequence: 5007
+[UDP RECEIVED Feed B ] Sequence 5007
+Duplicate/Late Sequence 5007
+[UDP RECEIVED Feed A ] Sequence 5008
+[UDP RECEIVED Feed B ] Sequence 5008
+[DUPLICATE] Sequence 5008 already buffered
+Processed sequence: 5008
+[UDP RECEIVED Feed B ] Sequence 5008
+Duplicate/Late Sequence 5008
+[UDP RECEIVED Feed A ] Sequence 5009
+[UDP RECEIVED Feed B ] Sequence 5009
+[DUPLICATE] Sequence 5009 already buffered
+Processed sequence: 5009
+[UDP RECEIVED Feed B ] Sequence 5009
+Duplicate/Late Sequence 5009
+[UDP RECEIVED Feed A ] Sequence 5010
+[UDP RECEIVED Feed B ] Sequence 5010
+[DUPLICATE] Sequence 5010 already buffered
+Processed sequence: 5010
+[UDP RECEIVED Feed B ] Sequence 5010
+Duplicate/Late Sequence 5010
+[UDP RECEIVED Feed A ] Sequence 5011
+[UDP RECEIVED Feed B ] Sequence 5011
+[DUPLICATE] Sequence 5011 already buffered
+Processed sequence: 5011
+[UDP RECEIVED Feed B ] Sequence 5011
+Duplicate/Late Sequence 5011
+[UDP RECEIVED Feed A ] Sequence 5012
+[UDP RECEIVED Feed B ] Sequence 5012
+[DUPLICATE] Sequence 5012 already buffered
+Processed sequence: 5012
+[UDP RECEIVED Feed B ] Sequence 5012
+Duplicate/Late Sequence 5012
+[UDP RECEIVED Feed A ] Sequence 5013
+[UDP RECEIVED Feed B ] Sequence 5013
+[DUPLICATE] Sequence 5013 already buffered
+Processed sequence: 5013
+[UDP RECEIVED Feed B ] Sequence 5013
+Duplicate/Late Sequence 5013
+[UDP RECEIVED Feed A ] Sequence 5014
+[UDP RECEIVED Feed B ] Sequence 5014
+[DUPLICATE] Sequence 5014 already buffered
+Processed sequence: 5014
+[UDP RECEIVED Feed B ] Sequence 5014
+Duplicate/Late Sequence 5014
+[UDP RECEIVED Feed A ] Sequence 5015
+[UDP RECEIVED Feed B ] Sequence 5015
+[DUPLICATE] Sequence 5015 already buffered
+Processed sequence: 5015
+[UDP RECEIVED Feed B ] Sequence 5015
+Duplicate/Late Sequence 5015
+[UDP RECEIVED Feed A ] Sequence 5016
+[UDP RECEIVED Feed B ] Sequence 5016
+[DUPLICATE] Sequence 5016 already buffered
+Processed sequence: 5016
+[UDP RECEIVED Feed B ] Sequence 5016
+Duplicate/Late Sequence 5016
+[UDP RECEIVED Feed A ] Sequence 5017
+[UDP RECEIVED Feed B ] Sequence 5017
+[DUPLICATE] Sequence 5017 already buffered
+Processed sequence: 5017
+[UDP RECEIVED Feed B ] Sequence 5017
+Duplicate/Late Sequence 5017
+[UDP RECEIVED Feed A ] Sequence 5018
+[UDP RECEIVED Feed B ] Sequence 5018
+[DUPLICATE] Sequence 5018 already buffered
+Processed sequence: 5018
+[UDP RECEIVED Feed B ] Sequence 5018
+Duplicate/Late Sequence 5018
+[UDP RECEIVED Feed A ] Sequence 5019
+[UDP RECEIVED Feed B ] Sequence 5019
+[DUPLICATE] Sequence 5019 already buffered
+Processed sequence: 5019
+[UDP RECEIVED Feed B ] Sequence 5019
+Duplicate/Late Sequence 5019
+[UDP RECEIVED Feed A ] Sequence 5020
+[UDP RECEIVED Feed B ] Sequence 5020
+[DUPLICATE] Sequence 5020 already buffered
+Processed sequence: 5020
+[UDP RECEIVED Feed B ] Sequence 5020
+Duplicate/Late Sequence 5020
+[UDP RECEIVED Feed A ] Sequence 5021
+[UDP RECEIVED Feed B ] Sequence 5021
+[DUPLICATE] Sequence 5021 already buffered
+Processed sequence: 5021
+[UDP RECEIVED Feed B ] Sequence 5021
+Duplicate/Late Sequence 5021
+[UDP RECEIVED Feed A ] Sequence 5022
+[UDP RECEIVED Feed B ] Sequence 5022
+[DUPLICATE] Sequence 5022 already buffered
+Processed sequence: 5022
+[UDP RECEIVED Feed B ] Sequence 5022
+Duplicate/Late Sequence 5022
+[UDP RECEIVED Feed A ] Sequence 5023
+[UDP RECEIVED Feed B ] Sequence 5023
+[DUPLICATE] Sequence 5023 already buffered
+Processed sequence: 5023
+[UDP RECEIVED Feed B ] Sequence 5023
+Duplicate/Late Sequence 5023
+[UDP RECEIVED Feed A ] Sequence 5024
+[UDP RECEIVED Feed B ] Sequence 5024
+[DUPLICATE] Sequence 5024 already buffered
+Processed sequence: 5024
+[UDP RECEIVED Feed B ] Sequence 5024
+Duplicate/Late Sequence 5024
+[UDP RECEIVED Feed A ] Sequence 5025
+[UDP RECEIVED Feed B ] Sequence 5025
+[DUPLICATE] Sequence 5025 already buffered
+Processed sequence: 5025
+[UDP RECEIVED Feed B ] Sequence 5025
+Duplicate/Late Sequence 5025
+[UDP RECEIVED Feed A ] Sequence 5026
+[UDP RECEIVED Feed B ] Sequence 5026
+[DUPLICATE] Sequence 5026 already buffered
+Processed sequence: 5026
+[UDP RECEIVED Feed B ] Sequence 5026
+Duplicate/Late Sequence 5026
+[UDP RECEIVED Feed A ] Sequence 5027
+[UDP RECEIVED Feed B ] Sequence 5027
+[DUPLICATE] Sequence 5027 already buffered
+Processed sequence: 5027
+[UDP RECEIVED Feed B ] Sequence 5027
+Duplicate/Late Sequence 5027
+[UDP RECEIVED Feed A ] Sequence 5028
+[UDP RECEIVED Feed B ] Sequence 5028
+[DUPLICATE] Sequence 5028 already buffered
+Processed sequence: 5028
+[UDP RECEIVED Feed B ] Sequence 5028
+Duplicate/Late Sequence 5028
+[UDP RECEIVED Feed A ] Sequence 5029
+[UDP RECEIVED Feed B ] Sequence 5029
+[DUPLICATE] Sequence 5029 already buffered
+Processed sequence: 5029
+[UDP RECEIVED Feed B ] Sequence 5029
+Duplicate/Late Sequence 5029
+[UDP RECEIVED Feed A ] Sequence 5030
+[UDP RECEIVED Feed B ] Sequence 5030
+[DUPLICATE] Sequence 5030 already buffered
+Processed sequence: 5030
+[UDP RECEIVED Feed B ] Sequence 5030
+Duplicate/Late Sequence 5030
+[UDP RECEIVED Feed A ] Sequence 5031
+[UDP RECEIVED Feed B ] Sequence 5031
+[DUPLICATE] Sequence 5031 already buffered
+Processed sequence: 5031
+[UDP RECEIVED Feed B ] Sequence 5031
+Duplicate/Late Sequence 5031
+[UDP RECEIVED Feed A ] Sequence 5032
+[UDP RECEIVED Feed B ] Sequence 5032
+[DUPLICATE] Sequence 5032 already buffered
+Processed sequence: 5032
+[UDP RECEIVED Feed B ] Sequence 5032
+Duplicate/Late Sequence 5032
+[UDP RECEIVED Feed A ] Sequence 5033
+[UDP RECEIVED Feed B ] Sequence 5033
+[DUPLICATE] Sequence 5033 already buffered
+Processed sequence: 5033
+[UDP RECEIVED Feed B ] Sequence 5033
+Duplicate/Late Sequence 5033
+[UDP RECEIVED Feed A ] Sequence 5034
+[UDP RECEIVED Feed B ] Sequence 5034
+[DUPLICATE] Sequence 5034 already buffered
+Processed sequence: 5034
+[UDP RECEIVED Feed B ] Sequence 5034
+Duplicate/Late Sequence 5034
+[UDP RECEIVED Feed A ] Sequence 5035
+[UDP RECEIVED Feed B ] Sequence 5035
+[DUPLICATE] Sequence 5035 already buffered
+Processed sequence: 5035
+[UDP RECEIVED Feed B ] Sequence 5035
+Duplicate/Late Sequence 5035
+[UDP RECEIVED Feed A ] Sequence 5036
+[UDP RECEIVED Feed B ] Sequence 5036
+[DUPLICATE] Sequence 5036 already buffered
+Processed sequence: 5036
+[UDP RECEIVED Feed B ] Sequence 5036
+Duplicate/Late Sequence 5036
+[UDP RECEIVED Feed A ] Sequence 5037
+[UDP RECEIVED Feed B ] Sequence 5037
+[DUPLICATE] Sequence 5037 already buffered
+Processed sequence: 5037
+[UDP RECEIVED Feed B ] Sequence 5037
+Duplicate/Late Sequence 5037
+[UDP RECEIVED Feed A ] Sequence 5038
+[UDP RECEIVED Feed B ] Sequence 5038
+[DUPLICATE] Sequence 5038 already buffered
+Processed sequence: 5038
+[UDP RECEIVED Feed B ] Sequence 5038
+Duplicate/Late Sequence 5038
+[UDP RECEIVED Feed A ] Sequence 5039
+[UDP RECEIVED Feed B ] Sequence 5039
+[DUPLICATE] Sequence 5039 already buffered
+Processed sequence: 5039
+[UDP RECEIVED Feed B ] Sequence 5039
+Duplicate/Late Sequence 5039
+[UDP RECEIVED Feed A ] Sequence 5040
+[UDP RECEIVED Feed B ] Sequence 5040
+[DUPLICATE] Sequence 5040 already buffered
+Processed sequence: 5040
+[UDP RECEIVED Feed B ] Sequence 5040
+Duplicate/Late Sequence 5040
+[UDP RECEIVED Feed A ] Sequence 5041
+[UDP RECEIVED Feed B ] Sequence 5041
+[DUPLICATE] Sequence 5041 already buffered
+Processed sequence: 5041
+[UDP RECEIVED Feed B ] Sequence 5041
+Duplicate/Late Sequence 5041
+[UDP RECEIVED Feed A ] Sequence 5042
+[UDP RECEIVED Feed B ] Sequence 5042
+[DUPLICATE] Sequence 5042 already buffered
+Processed sequence: 5042
+[UDP RECEIVED Feed B ] Sequence 5042
+Duplicate/Late Sequence 5042
+[UDP RECEIVED Feed A ] Sequence 5043
+[UDP RECEIVED Feed B ] Sequence 5043
+[DUPLICATE] Sequence 5043 already buffered
+Processed sequence: 5043
+[UDP RECEIVED Feed B ] Sequence 5043
+Duplicate/Late Sequence 5043
+[UDP RECEIVED Feed A ] Sequence 5044
+[UDP RECEIVED Feed B ] Sequence 5044
+[DUPLICATE] Sequence 5044 already buffered
+Processed sequence: 5044
+[UDP RECEIVED Feed B ] Sequence 5044
+Duplicate/Late Sequence 5044
+[UDP RECEIVED Feed A ] Sequence 5045
+[UDP RECEIVED Feed B ] Sequence 5045
+[DUPLICATE] Sequence 5045 already buffered
+Processed sequence: 5045
+[UDP RECEIVED Feed B ] Sequence 5045
+Duplicate/Late Sequence 5045
+[UDP RECEIVED Feed A ] Sequence 5046
+Processed sequence: 5046
+[UDP RECEIVED Feed B ] Sequence 5046
+Duplicate/Late Sequence 5046
+[UDP RECEIVED Feed B ] Sequence 5046
+Duplicate/Late Sequence 5046
+[UDP RECEIVED Feed A ] Sequence 5047
+[UDP RECEIVED Feed B ] Sequence 5047
+[DUPLICATE] Sequence 5047 already buffered
+Processed sequence: 5047
+[UDP RECEIVED Feed B ] Sequence 5047
+Duplicate/Late Sequence 5047
+[UDP RECEIVED Feed A ] Sequence 5048
+[UDP RECEIVED Feed B ] Sequence 5048
+[DUPLICATE] Sequence 5048 already buffered
+Processed sequence: 5048
+[UDP RECEIVED Feed B ] Sequence 5048
+Duplicate/Late Sequence 5048
+[UDP RECEIVED Feed A ] Sequence 5049
+[UDP RECEIVED Feed B ] Sequence 5049
+[DUPLICATE] Sequence 5049 already buffered
+Processed sequence: 5049
+[UDP RECEIVED Feed B ] Sequence 5049
+Duplicate/Late Sequence 5049
+[UDP RECEIVED Feed A ] Sequence 5050
+[UDP RECEIVED Feed B ] Sequence 5050
+[DUPLICATE] Sequence 5050 already buffered
+Processed sequence: 5050
+[UDP RECEIVED Feed B ] Sequence 5050
+Duplicate/Late Sequence 5050
+[UDP RECEIVED Feed A ] Sequence 5051
+[UDP RECEIVED Feed B ] Sequence 5051
+[DUPLICATE] Sequence 5051 already buffered
+Processed sequence: 5051
+[UDP RECEIVED Feed B ] Sequence 5051
+Duplicate/Late Sequence 5051
+[UDP RECEIVED Feed A ] Sequence 5052
+[UDP RECEIVED Feed B ] Sequence 5052
+[DUPLICATE] Sequence 5052 already buffered
+Processed sequence: 5052
+[UDP RECEIVED Feed B ] Sequence 5052
+Duplicate/Late Sequence 5052
+[UDP RECEIVED Feed A ] Sequence 5053
+[UDP RECEIVED Feed B ] Sequence 5053
+[DUPLICATE] Sequence 5053 already buffered
+Processed sequence: 5053
+[UDP RECEIVED Feed B ] Sequence 5053
+Duplicate/Late Sequence 5053
+[UDP RECEIVED Feed A ] Sequence 5054
+[UDP RECEIVED Feed B ] Sequence 5054
+[DUPLICATE] Sequence 5054 already buffered
+Processed sequence: 5054
+[UDP RECEIVED Feed B ] Sequence 5054
+Duplicate/Late Sequence 5054
+[UDP RECEIVED Feed A ] Sequence 5055
+[UDP RECEIVED Feed B ] Sequence 5055
+[DUPLICATE] Sequence 5055 already buffered
+Processed sequence: 5055
+[UDP RECEIVED Feed B ] Sequence 5055
+Duplicate/Late Sequence 5055
+[UDP RECEIVED Feed A ] Sequence 5056
+[UDP RECEIVED Feed B ] Sequence 5056
+[DUPLICATE] Sequence 5056 already buffered
+Processed sequence: 5056
+[UDP RECEIVED Feed B ] Sequence 5056
+Duplicate/Late Sequence 5056
+[UDP RECEIVED Feed A ] Sequence 5057
+[UDP RECEIVED Feed B ] Sequence 5057
+[DUPLICATE] Sequence 5057 already buffered
+Processed sequence: 5057
+[UDP RECEIVED Feed B ] Sequence 5057
+Duplicate/Late Sequence 5057
+[UDP RECEIVED Feed A ] Sequence 5058
+[UDP RECEIVED Feed B ] Sequence 5058
+[DUPLICATE] Sequence 5058 already buffered
+Processed sequence: 5058
+[UDP RECEIVED Feed B ] Sequence 5058
+Duplicate/Late Sequence 5058
+[UDP RECEIVED Feed A ] Sequence 5059
+[UDP RECEIVED Feed B ] Sequence 5059
+[DUPLICATE] Sequence 5059 already buffered
+Processed sequence: 5059
+[UDP RECEIVED Feed B ] Sequence 5059
+Duplicate/Late Sequence 5059
+[UDP RECEIVED Feed A ] Sequence 5060
+[UDP RECEIVED Feed B ] Sequence 5060
+[DUPLICATE] Sequence 5060 already buffered
+Processed sequence: 5060
+[UDP RECEIVED Feed B ] Sequence 5060
+Duplicate/Late Sequence 5060
+[UDP RECEIVED Feed A ] Sequence 5061
+[UDP RECEIVED Feed B ] Sequence 5061
+[DUPLICATE] Sequence 5061 already buffered
+Processed sequence: 5061
+[UDP RECEIVED Feed B ] Sequence 5061
+Duplicate/Late Sequence 5061
+[UDP RECEIVED Feed A ] Sequence 5062
+[UDP RECEIVED Feed B ] Sequence 5062
+[DUPLICATE] Sequence 5062 already buffered
+Processed sequence: 5062
+[UDP RECEIVED Feed B ] Sequence 5062
+Duplicate/Late Sequence 5062
+[UDP RECEIVED Feed A ] Sequence 5063
+[UDP RECEIVED Feed B ] Sequence 5063
+[DUPLICATE] Sequence 5063 already buffered
+Processed sequence: 5063
+[UDP RECEIVED Feed B ] Sequence 5063
+Duplicate/Late Sequence 5063
+[UDP RECEIVED Feed A ] Sequence 5064
+Processed sequence: 5064
+[UDP RECEIVED Feed B ] Sequence 5064
+Duplicate/Late Sequence 5064
+[UDP RECEIVED Feed B ] Sequence 5064
+Duplicate/Late Sequence 5064
+[UDP RECEIVED Feed A ] Sequence 5065
+[UDP RECEIVED Feed B ] Sequence 5065
+[DUPLICATE] Sequence 5065 already buffered
+Processed sequence: 5065
+[UDP RECEIVED Feed B ] Sequence 5065
+Duplicate/Late Sequence 5065
+[UDP RECEIVED Feed A ] Sequence 5066
+[UDP RECEIVED Feed B ] Sequence 5066
+[DUPLICATE] Sequence 5066 already buffered
+Processed sequence: 5066
+[UDP RECEIVED Feed B ] Sequence 5066
+Duplicate/Late Sequence 5066
+[UDP RECEIVED Feed A ] Sequence 5067
+[UDP RECEIVED Feed B ] Sequence 5067
+[DUPLICATE] Sequence 5067 already buffered
+Processed sequence: 5067
+[UDP RECEIVED Feed B ] Sequence 5067
+Duplicate/Late Sequence 5067
+[UDP RECEIVED Feed A ] Sequence 5068
+[UDP RECEIVED Feed B ] Sequence 5068
+[DUPLICATE] Sequence 5068 already buffered
+Processed sequence: 5068
+[UDP RECEIVED Feed B ] Sequence 5068
+Duplicate/Late Sequence 5068
+[UDP RECEIVED Feed A ] Sequence 5069
+[UDP RECEIVED Feed B ] Sequence 5069
+[DUPLICATE] Sequence 5069 already buffered
+Processed sequence: 5069
+[UDP RECEIVED Feed B ] Sequence 5069
+Duplicate/Late Sequence 5069
+[UDP RECEIVED Feed A ] Sequence 5070
+[UDP RECEIVED Feed B ] Sequence 5070
+[DUPLICATE] Sequence 5070 already buffered
+Processed sequence: 5070
+[UDP RECEIVED Feed B ] Sequence 5070
+Duplicate/Late Sequence 5070
+[UDP RECEIVED Feed A ] Sequence 5071
+[UDP RECEIVED Feed B ] Sequence 5071
+[DUPLICATE] Sequence 5071 already buffered
+Processed sequence: 5071
+[UDP RECEIVED Feed B ] Sequence 5071
+Duplicate/Late Sequence 5071
+[UDP RECEIVED Feed A ] Sequence 5072
+[UDP RECEIVED Feed B ] Sequence 5072
+[DUPLICATE] Sequence 5072 already buffered
+Processed sequence: 5072
+[UDP RECEIVED Feed B ] Sequence 5072
+Duplicate/Late Sequence 5072
+[UDP RECEIVED Feed A ] Sequence 5073
+[UDP RECEIVED Feed B ] Sequence 5073
+[DUPLICATE] Sequence 5073 already buffered
+Processed sequence: 5073
+[UDP RECEIVED Feed B ] Sequence 5073
+Duplicate/Late Sequence 5073
+[UDP RECEIVED Feed A ] Sequence 5074
+[UDP RECEIVED Feed B ] Sequence 5074
+[DUPLICATE] Sequence 5074 already buffered
+Processed sequence: 5074
+[UDP RECEIVED Feed B ] Sequence 5074
+Duplicate/Late Sequence 5074
+[UDP RECEIVED Feed A ] Sequence 5075
+[UDP RECEIVED Feed B ] Sequence 5075
+[DUPLICATE] Sequence 5075 already buffered
+Processed sequence: 5075
+[UDP RECEIVED Feed B ] Sequence 5075
+Duplicate/Late Sequence 5075
+[UDP RECEIVED Feed A ] Sequence 5076
+[UDP RECEIVED Feed B ] Sequence 5076
+[DUPLICATE] Sequence 5076 already buffered
+Processed sequence: 5076
+[UDP RECEIVED Feed B ] Sequence 5076
+Duplicate/Late Sequence 5076
+[UDP RECEIVED Feed A ] Sequence 5077
+[UDP RECEIVED Feed B ] Sequence 5077
+[DUPLICATE] Sequence 5077 already buffered
+Processed sequence: 5077
+[UDP RECEIVED Feed B ] Sequence 5077
+Duplicate/Late Sequence 5077
+[UDP RECEIVED Feed A ] Sequence 5078
+[UDP RECEIVED Feed B ] Sequence 5078
+[DUPLICATE] Sequence 5078 already buffered
+Processed sequence: 5078
+[UDP RECEIVED Feed B ] Sequence 5078
+Duplicate/Late Sequence 5078
+[UDP RECEIVED Feed A ] Sequence 5079
+[UDP RECEIVED Feed B ] Sequence 5079
+[DUPLICATE] Sequence 5079 already buffered
+Processed sequence: 5079
+[UDP RECEIVED Feed B ] Sequence 5079
+Duplicate/Late Sequence 5079
+[UDP RECEIVED Feed A ] Sequence 5080
+[UDP RECEIVED Feed B ] Sequence 5080
+[DUPLICATE] Sequence 5080 already buffered
+Processed sequence: 5080
+[UDP RECEIVED Feed B ] Sequence 5080
+Duplicate/Late Sequence 5080
+[UDP RECEIVED Feed A ] Sequence 5081
+[UDP RECEIVED Feed B ] Sequence 5081
+[DUPLICATE] Sequence 5081 already buffered
+Processed sequence: 5081
+[UDP RECEIVED Feed B ] Sequence 5081
+Duplicate/Late Sequence 5081
+[UDP RECEIVED Feed A ] Sequence 5082
+[UDP RECEIVED Feed B ] Sequence 5082
+[DUPLICATE] Sequence 5082 already buffered
+Processed sequence: 5082
+[UDP RECEIVED Feed B ] Sequence 5082
+Duplicate/Late Sequence 5082
+[UDP RECEIVED Feed A ] Sequence 5083
+[UDP RECEIVED Feed B ] Sequence 5083
+[DUPLICATE] Sequence 5083 already buffered
+Processed sequence: 5083
+[UDP RECEIVED Feed B ] Sequence 5083
+Duplicate/Late Sequence 5083
+[UDP RECEIVED Feed A ] Sequence 5084
+[UDP RECEIVED Feed B ] Sequence 5084
+[DUPLICATE] Sequence 5084 already buffered
+Processed sequence: 5084
+[UDP RECEIVED Feed B ] Sequence 5084
+Duplicate/Late Sequence 5084
+[UDP RECEIVED Feed A ] Sequence 5085
+[UDP RECEIVED Feed B ] Sequence 5085
+[DUPLICATE] Sequence 5085 already buffered
+Processed sequence: 5085
+[UDP RECEIVED Feed B ] Sequence 5085
+Duplicate/Late Sequence 5085
+[UDP RECEIVED Feed A ] Sequence 5086
+[UDP RECEIVED Feed B ] Sequence 5086
+[DUPLICATE] Sequence 5086 already buffered
+Processed sequence: 5086
+[UDP RECEIVED Feed B ] Sequence 5086
+Duplicate/Late Sequence 5086
+[UDP RECEIVED Feed A ] Sequence 5087
+[UDP RECEIVED Feed B ] Sequence 5087
+[DUPLICATE] Sequence 5087 already buffered
+Processed sequence: 5087
+[UDP RECEIVED Feed B ] Sequence 5087
+Duplicate/Late Sequence 5087
+[UDP RECEIVED Feed A ] Sequence 5088
+[UDP RECEIVED Feed B ] Sequence 5088
+[DUPLICATE] Sequence 5088 already buffered
+Processed sequence: 5088
+[UDP RECEIVED Feed B ] Sequence 5088
+Duplicate/Late Sequence 5088
+[UDP RECEIVED Feed A ] Sequence 5089
+[UDP RECEIVED Feed B ] Sequence 5089
+[DUPLICATE] Sequence 5089 already buffered
+Processed sequence: 5089
+[UDP RECEIVED Feed B ] Sequence 5089
+Duplicate/Late Sequence 5089
+[UDP RECEIVED Feed A ] Sequence 5090
+[UDP RECEIVED Feed B ] Sequence 5090
+[DUPLICATE] Sequence 5090 already buffered
+Processed sequence: 5090
+[UDP RECEIVED Feed B ] Sequence 5090
+Duplicate/Late Sequence 5090
+[UDP RECEIVED Feed A ] Sequence 5091
+[UDP RECEIVED Feed B ] Sequence 5091
+[DUPLICATE] Sequence 5091 already buffered
+Processed sequence: 5091
+[UDP RECEIVED Feed B ] Sequence 5091
+Duplicate/Late Sequence 5091
+[UDP RECEIVED Feed A ] Sequence 5092
+[UDP RECEIVED Feed B ] Sequence 5092
+[DUPLICATE] Sequence 5092 already buffered
+Processed sequence: 5092
+[UDP RECEIVED Feed B ] Sequence 5092
+Duplicate/Late Sequence 5092
+[UDP RECEIVED Feed A ] Sequence 5093
+[UDP RECEIVED Feed B ] Sequence 5093
+[DUPLICATE] Sequence 5093 already buffered
+Processed sequence: 5093
+[UDP RECEIVED Feed B ] Sequence 5093
+Duplicate/Late Sequence 5093
+[UDP RECEIVED Feed A ] Sequence 5094
+[UDP RECEIVED Feed B ] Sequence 5094
+[DUPLICATE] Sequence 5094 already buffered
+Processed sequence: 5094
+[UDP RECEIVED Feed B ] Sequence 5094
+Duplicate/Late Sequence 5094
+[UDP RECEIVED Feed A ] Sequence 5095
+[UDP RECEIVED Feed B ] Sequence 5095
+[DUPLICATE] Sequence 5095 already buffered
+Processed sequence: 5095
+[UDP RECEIVED Feed B ] Sequence 5095
+Duplicate/Late Sequence 5095
+[UDP RECEIVED Feed A ] Sequence 5096
+[UDP RECEIVED Feed B ] Sequence 5096
+[DUPLICATE] Sequence 5096 already buffered
+Processed sequence: 5096
+[UDP RECEIVED Feed B ] Sequence 5096
+Duplicate/Late Sequence 5096
+[UDP RECEIVED Feed A ] Sequence 5097
+[UDP RECEIVED Feed B ] Sequence 5097
+[DUPLICATE] Sequence 5097 already buffered
+Processed sequence: 5097
+[UDP RECEIVED Feed B ] Sequence 5097
+Duplicate/Late Sequence 5097
+[UDP RECEIVED Feed A ] Sequence 5098
+[UDP RECEIVED Feed B ] Sequence 5098
+[DUPLICATE] Sequence 5098 already buffered
+Processed sequence: 5098
+[UDP RECEIVED Feed B ] Sequence 5098
+Duplicate/Late Sequence 5098
+[UDP RECEIVED Feed A ] Sequence 5099
+[UDP RECEIVED Feed B ] Sequence 5099
+[DUPLICATE] Sequence 5099 already buffered
+Processed sequence: 5099
+[UDP RECEIVED Feed B ] Sequence 5099
+Duplicate/Late Sequence 5099
+[UDP RECEIVED Feed A ] Sequence 5100
+[UDP RECEIVED Feed B ] Sequence 5100
+[DUPLICATE] Sequence 5100 already buffered
+Processed sequence: 5100
+[UDP RECEIVED Feed B ] Sequence 5100
+Duplicate/Late Sequence 5100
+
+No successful recovery samples collected.
+
+=== PROCESS CPU & RESOURCE USAGE ===
+User CPU Time:   0.0000 s
+System CPU Time: 0.0378 s
+Total CPU Time:  0.0378 s
+Peak RAM (RSS):  2632 KB
+TickWire receiver stopped.
